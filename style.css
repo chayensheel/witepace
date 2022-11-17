@@ -59,6 +59,7 @@ Header css
 .header-area{
     background-color: #043873;
     padding: 16px 0;
+    position: fixed;
 }
 .header-area.theme-button {
     margin-left: 24px;
@@ -93,9 +94,15 @@ Header css
     
     }
     .header-area .nav-link{
-        
+        position: relative;
         
         padding:16px 0 !important;
+    }
+    .header-area .nav-link::after{
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
     }
     .header-area .nav-link{
         position: relative;
