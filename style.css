@@ -323,3 +323,17 @@ font-size: 52px;
             margin-bottom: 30px;
         }
     }
+
+    /*
+    your work area css
+    */
+   .your-work-area {
+    padding: 140px 0;
+    background-color: #043873;
+   } 
+   .your-work-area .theme-text h3 {
+    color: #fff;
+   }
+   .your-work-area .theme-text p {
+    color: #fff;
+   }
