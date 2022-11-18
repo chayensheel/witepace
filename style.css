@@ -345,3 +345,38 @@ your-task-area css
     padding: 140px 0;
     background-color: #fff;
    }
+
+   @media (max-width :991px){
+    .your-task-area {
+        padding: 80px 0;
+     }
+   }
+
+   /*
+   sponsors-area css
+   */
+.sponsors-area {
+    padding: 140px 0;
+    background-color: #fff;
+    
+}
+.sponsors-area .theme-text {
+    margin-bottom: 80px;
+}
+.single-sponser img {
+    height: 55px;
+    width: auto;
+}
+
+
+@media (max-width :991px) {
+    .sponsers-area {
+        padding-top: 50px;
+        padding-bottom: 30px;
+     }
+     .single-sponser {
+        margin-bottom: 50px;
+     }
+     
+     }
+   }
