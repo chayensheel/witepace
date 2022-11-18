@@ -337,3 +337,11 @@ font-size: 52px;
    .your-work-area .theme-text p {
     color: #fff;
    }
+/*
+
+your-task-area css
+*/
+   .your-task-area {
+    padding: 140px 0;
+    background-color: #fff;
+   }
