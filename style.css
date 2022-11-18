@@ -53,13 +53,46 @@ body{
 .theme-button img{
     margin-left: 10px;
 }
+.theme-text h3 {
+    font-size: 67px;
+    color: #212529;
+    margin-bottom: 15px;
+}
+.theme-text p {
+    
+    color: #212529;
+}
+.theme-text h3 span {
+    position: relative;
+    z-index: 1;
+}
+.theme-text h3 span::after {
+position: absolute;
+content: "";
+width: 100%;
+height: 30px;
+left: 0;
+bottom: 0;
+z-index: -1;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(img/vector.png);
+}
+@media (max-width :991px) {
+    .theme-text {
+        text-align: center;
+    }
+    .theme-text h3 {
+        font-size: 36px;
+    }
+}
 /*
 Header css
 */
 .header-area{
     background-color: #043873;
     padding: 16px 0;
-    position: fixed;
+    
 }
 .header-area.theme-button {
     margin-left: 24px;
@@ -151,4 +184,29 @@ font-size: 52px;
     .hero-area .theme-button{
         margin-bottom: 50px;
     }
+    /*
+    start managnment area css
+    */
+    .management-area {
+        background-color: #fff;
+        padding: 140px 0;
+    }
+    .work-management {
+     margin-top: 100px;
+    }
+
+    @media (max-width :991px) {
+        .management-area {
+            padding: 80px 0;
+        }
+        .management-area {
+           margin: 60px;
+        }
+        .management-area .theme-button {
+            margin-bottom: 50px;
+
+        } 
+    }
+
     
+ 
