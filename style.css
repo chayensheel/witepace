@@ -46,10 +46,18 @@ body{
     border-radius: 8px; 
     padding: 16px 24px !important;
     color: #043873 !important;
-    margin-left: 24px;
-    
-
+   margin-le ft: 24px;
 }
+.theme-button-three {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #FFE492;
+    border-radius: 8px; 
+    padding: 16px 24px !important;
+    color: #043873 !important;
+    text-decoration: none;
+}
+
 .theme-button img{
     margin-left: 10px;
 }
@@ -126,6 +134,7 @@ Header css
         margin-top: 15px;
     
     }
+    
     .header-area .nav-link{
         position: relative;
         
@@ -234,5 +243,83 @@ font-size: 52px;
         }
         .extension-area .theme-button {
             margin-bottom: 50px;
+        }
+    }
+    /*
+    Customise-area css
+    */
+    .customise-area {
+        background-color: #fff;
+        padding: 140px 0;
+    }
+
+    @media (max-width :991px) {
+        .customise-area {
+            padding: 80px 0;
+        }
+        
+    }
+
+    /*
+    priving area css
+    */
+
+    .pricing-area {
+        padding: 140px 0;
+        background-color: #fff;
+    }
+    .pricing-area .theme-text {
+        margin-bottom: 60px;
+    }
+    .single-pricing {
+        color: #212529;
+        border: 1px solid #FFE492;
+        border-radius: 10px;
+        padding: 40px 44px;
+    }
+
+    .single-pricing h4 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .single-pricing h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+
+    .single-pricing ul {
+        margin: 0;
+        padding: 0;
+        margin: 25px 0;
+
+    }
+
+    .single-pricing ul li {
+        list-style: none;
+        margin-bottom: 28px;
+    }
+
+    .single-pricing ul li:last-child {
+        margin: 0;
+    }
+
+    .special-pricing {
+        padding: 80px 44px;
+        background-color: #043873;
+        color: #fff;
+    }
+
+    .special-pricing h2 {
+      color: #FFE492;
+    }
+
+    @media (max-width :991px) {
+        .pricing-area {
+            padding: 80px 0;
+        }
+        .special-pricing{
+            margin-bottom: 30px;
         }
     }
