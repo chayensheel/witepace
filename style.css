@@ -37,9 +37,8 @@ body{
 .theme-button:hover{
    
     color: #fff;
-    
-
 }
+
 .theme-button-two{
     display: inline-block;
     background: #FFE492;
@@ -58,7 +57,7 @@ body{
     text-decoration: none;
 }
 
-.theme-button img{
+.theme-button img {
     margin-left: 10px;
 }
 .theme-text h3 {
@@ -379,4 +378,3 @@ your-task-area css
      }
      
      }
-   }
