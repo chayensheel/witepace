@@ -34,9 +34,11 @@ body{
     color: #fff;
     transition: .3s;
 }
+
 .theme-button:hover{
-   
+
     color: #fff;
+    color:#043873;;
 }
 
 .theme-button-two{
@@ -45,8 +47,9 @@ body{
     border-radius: 8px; 
     padding: 16px 24px !important;
     color: #043873 !important;
-   margin-le ft: 24px;
+   margin-left: 24px;
 }
+
 .theme-button-three {
     display: inline-block;
     background: #fff;
@@ -108,25 +111,26 @@ Header css
     margin-left: 24px;
 }
 
-.header-area .nav-link{
+.header-area .nav-link {
     color: #fff;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     padding: 16px 24px !important;
 }
-.header-area .navbar-toggler{
+.header-area .navbar-toggler {
      border: none;
      box-shadow: none;
 }
 
-@media (max-width :991px){
+@media (max-width :991px) {
     .theme-button{
         width: 100%;
         text-align: center;
         margin-left: 0;
         margin-top: 15px;
     }
-    .theme-button-two{
+  } 
+    .theme-button-two {
         width: 100%;
         text-align: center;
         margin-left: 0;
@@ -134,21 +138,22 @@ Header css
     
     }
     
-    .header-area .nav-link{
+    .header-area .nav-link {
         position: relative;
-        
         padding:16px 0 !important;
     }
-    .header-area .nav-link::after{
+
+
+    .header-area .nav-link::after {
         position: absolute;
         right: 12px;
         top: 50%;
         transform: translateY(-50%);
     }
-    .header-area .nav-link{
+    .header-area .nav-link {
         position: relative;
     }
-    .header-area .nav-link::after{
+    .header-area .nav-link::after {
         position:absolute;
         right: 12px;
         top: 50%;
@@ -160,22 +165,22 @@ Header css
     .header-area.theme-button-two {
         margin-left: 0;
     }
-}
+
 /*
 Hero Css
 */
-.hero-area{
+.hero-area {
     padding: 140px 0;
     background-image: url(img/hero-bac.png);
     background-size: cover;
     background-position: center;
 }
-.hero-text h2{
+.hero-text h2 {
     font-weight: 700;
 font-size: 52px;
 
 }
-.hero-area .theme-button{
+.hero-area .theme-button {
     margin-top: 30px;
 }
 @media (max-width :991px){
@@ -183,13 +188,13 @@ font-size: 52px;
         padding: 80px 0;
     }
 }
-    .hero-text{
+    .hero-text {
         text-align: center;
     }
-    .hero-text h2{ 
+    .hero-text h2 { 
     font-size: 36px;
     }
-    .hero-area .theme-button{
+    .hero-area .theme-button {
         margin-bottom: 50px;
     }
     /*
@@ -260,7 +265,7 @@ font-size: 52px;
     }
 
     /*
-    priving area css
+    pricving area css
     */
 
     .pricing-area {
@@ -323,38 +328,46 @@ font-size: 52px;
         }
     }
 
-    /*
-    your work area css
-    */
-   .your-work-area {
-    padding: 140px 0;
-    background-color: #043873;
-   } 
-   .your-work-area .theme-text h3 {
-    color: #fff;
-   }
-   .your-work-area .theme-text p {
-    color: #fff;
-   }
-/*
+     /* your work area css */
+    .your-work-area {
+        padding: 140px 0;
+        background-color: #043873;
+       } 
+       .your-work-area .theme-text h3 {
+        color: #fff;
+       }
+       .your-work-area .theme-text p {
+        color: #fff;
+       }
 
-your-task-area css
-*/
-   .your-task-area {
+       @media (max-width: 991px){
+        .your-work-area{
+            padding: 80px 0;
+        }
+        .your-work-area .theme-text h3{
+            font-size: 24px;
+        }
+    }
+
+/* End your work area css */
+
+    /* Your-task-area css */
+    .your-task-area {
     padding: 140px 0;
     background-color: #fff;
-   }
+    }
 
-   @media (max-width :991px){
+     @media (max-width: 991px){
     .your-task-area {
         padding: 80px 0;
      }
-   }
+    }
+    /* End Your-task-area css */
 
    /*
    sponsors-area css
    */
-.sponsors-area {
+   .sponsors-area {
     padding: 140px 0;
     background-color: #fff;
     
@@ -362,19 +375,116 @@ your-task-area css
 .sponsors-area .theme-text {
     margin-bottom: 80px;
 }
-.single-sponser img {
+.single-sponsor img {
     height: 55px;
     width: auto;
 }
 
-
-@media (max-width :991px) {
-    .sponsers-area {
-        padding-top: 50px;
+@media (max-width: 991px) {
+    .sponsor-area{
+        padding-top: 80px;
         padding-bottom: 30px;
-     }
-     .single-sponser {
+    }
+    .single-sponsor img {
         margin-bottom: 50px;
-     }
-     
-     }
+    }
+}
+ /* End sponsors-area css */
+
+
+/*
+Apps Area css
+*/
+.apps-area {
+    padding: 140px 0; 
+    background-image: url(img/apps-bg.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.apps-area .theme-text h3 {
+ color: #fff;
+}
+.apps-area .theme-text p {
+    color: #fff;
+   }
+
+   @media (max-width: 991px) {
+    .apps-area {
+       padding: 80px 0;
+    }
+    .apps-image {
+        margin-bottom: 50px;
+    }
+   }
+
+   /*
+   srtart testimonial-area css
+   
+   */
+   .testimonial-area {
+    padding: 140px 0;
+    background-color: #fff;
+   }
+   .testimonial-area .theme-text {
+    margin-bottom: 50px;
+   }
+   
+   .single-testimonial {
+    background: #4F9CF9;
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 50px 30px;
+    color: #212529;
+   }
+   .testmoniak-text {
+    border-bottom: 1px solid #fff;
+
+   }
+   .testmoniak-text img {
+    margin-bottom: 40px;
+    height: 60px;
+    width: auto !important;
+   }
+   .testmoniak-text p {
+    margin-bottom: 40px;
+    color: #fff;
+   }
+   .testmoniak-author {
+    margin-top: 40px;
+    display: flex;
+   }
+   .author-img {
+    margin-right: 25px;
+   }
+   .authore-text h3 {
+    font-size: 24px;
+    color: #043873;
+   }
+   .authore-text p {
+    margin-bottom: 0;
+    color: #fff;
+   }
+   .testimonial-area .owl-dots {
+    text-align: center;margin-top: 50px;
+   }
+   .testimonial-area .owl-dots button {
+    height: 15px;
+    width: 15px;
+    background-color: #4F9CF9;
+    border-radius: 50%;
+    margin: 0 5px;
+   }
+   .testimonial-area .owl-dots button.active {
+    background-color: #043873;
+   }
+   @media (max-width: 991px) {
+    .testimonial-area {
+        padding: 80px 0; 
+        
+    
+    }
+   }
+   
+   
