@@ -486,5 +486,52 @@ Apps Area css
     
     }
    }
+
+   /*
+   Trail-area css
+   */
+
+   .trail-area {
+    padding: 140px 0;
+    background-color: #043873;
+
+   }
+   .trail-text h3 {
+    font-size: 68px;
+   }
+   .trail-text p {
+    font-size: 24px;
+   }
+   .trail-area .theme-button {
+    margin: 20px 0;
+   }
+   .trial-img {
+    margin-top: 40px;
+
+   }
+   .trial-img a {
+    margin: 0 20px;
+    text-decoration: none;
+   }
+
+   @media (max-width: 991px) {
+    .trail-area {
+        padding: 80px 0;
+        background-color: #043873;
+    
+       }
+       .trail-text h3 {
+        font-size: 36px;
+       }
+       .trail-text p {
+        font-size: 18px;
+       }
+       .trial-img a {
+        margin: 0;
+        margin-right: 40px;
+       }
+   }
+    
+   
    
    
